@@ -2,12 +2,12 @@
 const canvas = document.getElementById('myChart');
 
 // Our data
-const places = ['Campusgarten', 'Mühlbach', 'Interactive Media Lab', 'Mensa'];
+const places = ['e-Kiosk', 'Tanke', 'Betty Ford Clinic', 'Crackhouse'];
 const votes = [12, 9, 5, 4];
 
 // Create a new chart: new Chart(where, configuration)
 new Chart(canvas, {
-  type: 'bar',                 // try: 'line', 'pie', 'doughnut'
+  type: 'pie',                 // try: 'line', 'pie', 'doughnut'
   data: {
     labels: places,         // labels on the x-axis
     datasets: [{
